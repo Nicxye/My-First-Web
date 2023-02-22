@@ -11,3 +11,20 @@ h2{
 .mainColor{
     color:indigo;
 }
+.pokeball{
+    position: relative;
+    z-index: 0;
+    border: 5px solid; 
+    border-image: linear-gradient(to bottom, black 50%,darkgray 50%) 5; 
+    background-image: linear-gradient(to bottom, red 50%, white 50%);
+}
+.horizontalLine{
+    position: absolute;
+    z-index: 5;
+    width: 3px; 
+    top: 35.2%; 
+    left:6.36%; 
+    background-color: black; 
+    transform: translate(-50%, -50%) rotate(90deg); 
+    height: 310px;
+}
