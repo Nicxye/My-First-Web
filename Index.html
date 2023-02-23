@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Web</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="" href="horizontalLine.css">
+    <script src="code.js"></script>
 </head>
 <body>
     <h1 style="color: red; font-size: 75px;">
@@ -25,7 +25,7 @@
     <div>
         <img class="pokeball" width="300px" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Bulbasaur">
         <img class="pokeball" width="300px" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png" alt="Ivysaur">
-        <img width="300px" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="Venusaur">
+        <img class="pokeball" width="300px" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="Venusaur">
     </div>
     <div>
         <img class="pokeball" width="300px" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Charmander">
@@ -34,15 +34,19 @@
     </div>
 
     <div class="mainColor">
-        <label for="">User</label>
-        <input type="text">
+        <label for="">User</label> 
+        <input type="text" id="txtUser"> 
+        <label for="">Number:</label>
+        <input type="text" id="txtNumberOne">
     </div>
     <div class="mainColor">
-        <label for="">Pass</label>
-        <input type="text">
+        <label for="">Pass</label> 
+        <input type="password" id="txtPassword"> 
+        <label for="">Another number:</label>
+        <input type="text" id="txtNumberTwo">
     </div>
     <div>
-        <button>Enter</button>
+        <button onclick="SayHi(); Addition();" >Enter</button>
     </div>
 </body>
 </html>
