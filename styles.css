@@ -1,24 +1,30 @@
-p{
+p
+{
     color: indianred;
     font-weight: bold;
 }
-h2{
+h2
+{
     color:green;
 }
-#paragraph2{
+#paragraph2
+{
     color:violet;
 }
-.mainColor{
+.mainColor
+{
     color:indigo;
 }
-.pokeball{
+.pokeball
+{
     position: relative;
     z-index: 0;
     border: 5px solid; 
     border-image: linear-gradient(to bottom, black 50%,darkgray 50%) 5; 
     background-image: linear-gradient(to bottom, red 50%, white 50%);
 }
-.horizontalLine{
+.horizontalLine
+{
     position: absolute;
     z-index: 5;
     width: 3px; 
